@@ -1,0 +1,552 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681379222799675, "dur": 1153222, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379222799689, "dur": 2872, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379222802563, "dur": 47138, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379222849702, "dur": 344161, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379223193866, "dur": 748337, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379223942205, "dur": 10691, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379223953934, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681379222977291, "dur": 195958, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379222978457, "dur": 49717, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379223154346, "dur": 5355, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379223159704, "dur": 13536, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379223160647, "dur": 11563, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379223178831, "dur": 1539, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681379223177886, "dur": 2520, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379223954147, "dur": 552, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681379223245164, "dur":1776, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223246954, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681379223247025, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681379223247046, "dur":308, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681379223247376, "dur":765, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223248141, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908452, "dur":309, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908761, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908799, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908804, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908815, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908818, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908828, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908832, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908842, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908845, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908857, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908860, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908869, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908872, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908881, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908885, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908893, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908926, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223908968, "dur":2527, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681379223247858, "dur":292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223248152, "dur":7082, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223255258, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681379223255270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223256934, "dur":841, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681379223257783, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681379223257882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223259208, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681379223263521, "dur":18352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681379223281879, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223281901, "dur":14612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681379223296621, "dur":80842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223377469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223377482, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223381928, "dur":43343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223425312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223425324, "dur":19472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223444875, "dur":78435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223523375, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223523394, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223525619, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223525892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223525904, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223527589, "dur":23014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223550610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223550624, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223553459, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223553875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223553886, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223555782, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223556354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223556365, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223558465, "dur":22123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223580598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223580616, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223584257, "dur":96778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223681041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223681055, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223683062, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223683360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223683371, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223684912, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223685267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223685278, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223686865, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223687085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223687095, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223688543, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223688761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223688770, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223691065, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223691545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223691555, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223693781, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223694051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223694062, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223695609, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223695958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223696001, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223697591, "dur":4692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223702288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223702301, "dur":5935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223708310, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223708801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223708827, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223710611, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223711082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223711093, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223713268, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223713935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223713946, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223715941, "dur":1317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223717264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223717277, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223722307, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223722602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223722613, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223724454, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223724921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223724932, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223727129, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223727528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223727539, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223729566, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223729854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223729868, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223731492, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223731750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223731761, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223733985, "dur":3947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223737937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223737946, "dur":4922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223742948, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223744064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223744077, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223746919, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223747121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223747134, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681379223749468, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681379223749564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223749642, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681379223752701, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223752775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223752783, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223754917, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223754994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223755007, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223758735, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223758841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223758855, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223760546, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223760628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223760640, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223764200, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223764317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223764328, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223765921, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1681379223766156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223766168, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1681379223768807, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223768886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223768897, "dur":4261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681379223773232, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1681379223773405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223773419, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1681379223775734, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223775810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681379223775819, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681379223778139, "dur":130279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223247971, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223248158, "dur":7173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223255331, "dur":19331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681379223274739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223275008, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681379223276949, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1681379223277115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223277126, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1681379223281545, "dur":604501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681379223886050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681379223886057, "dur":22183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681379223908370, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1681379223908378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223248134, "dur":39, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223248173, "dur":7064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223255258, "dur":43039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681379223298302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223299745, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681379223305625, "dur":19029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223324668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223325369, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223327279, "dur":53193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223380479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223380492, "dur":6044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223386613, "dur":35628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223422247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223422258, "dur":5598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223427936, "dur":30640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223458585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223458602, "dur":8207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223466873, "dur":21471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223488349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223488358, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223491968, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223492610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223492620, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223495198, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223495629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223495642, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223498598, "dur":47372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223545976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223545988, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223549254, "dur":27438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223576700, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223576713, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223578421, "dur":22283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223600711, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223600724, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223602809, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223603181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223603194, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223605191, "dur":30132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223635330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223635343, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223640588, "dur":180383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223820977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681379223820996, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681379223822711, "dur":85709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223248013, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223248166, "dur":7134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223255301, "dur":4087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681379223259392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223263926, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681379223267094, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681379223267283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223267296, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681379223269762, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681379223269960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223270134, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681379223272886, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681379223273087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223273104, "dur":2694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681379223275885, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1681379223276055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223276068, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1681379223278053, "dur":207113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223485173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223485398, "dur":12836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223498307, "dur":58708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223557021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223557072, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223559928, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223560359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223560369, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223563726, "dur":29418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223593151, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223593164, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223595311, "dur":30173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223625492, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223625508, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223627397, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223627739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223627750, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223630312, "dur":98515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223728841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223728860, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223730850, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223731221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223731231, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223733365, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223734163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223734176, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223736754, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223737072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223737089, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223738822, "dur":2668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223741499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223741521, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223744703, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223745120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223745133, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223746664, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223747185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223747194, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223749248, "dur":25916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223775168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681379223776192, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681379223778103, "dur":130316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223248242, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223248243, "dur":6999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223255259, "dur":20534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681379223275796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223275825, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681379223277378, "dur":81400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223358786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223359611, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223362905, "dur":26621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223389532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223389544, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223392049, "dur":152521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223544577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223544590, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223546370, "dur":22515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223568892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223568905, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223570997, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223571281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223571292, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223573448, "dur":41994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223615448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223615461, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223617277, "dur":20286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223637568, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223638015, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223640725, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223641010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223641020, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223642909, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223643200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223643225, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223645155, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223645815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223645857, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223647739, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223648054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223648064, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223650165, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223650538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223650550, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223652398, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223653574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223653586, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223656863, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223657168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223657178, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223658907, "dur":74099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223733014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223733032, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223734626, "dur":3962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223738601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223738641, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223743471, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223744060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223744073, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223745844, "dur":6758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223752648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223752661, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681379223759782, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1681379223759869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223759883, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1681379223762466, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223762535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223762545, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223764394, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223764463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223764470, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223766027, "dur":1228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681379223767261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223767272, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681379223769918, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223769986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223769995, "dur":4282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681379223774347, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1681379223774413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223774423, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1681379223776353, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681379223776426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681379223776436, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681379223779844, "dur":128612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223248314, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223248315, "dur":6924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223255258, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681379223255482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223263657, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681379223265742, "dur":15598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681379223281346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223281359, "dur":14560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681379223296003, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1681379223296200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223296849, "dur":22506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1681379223319434, "dur":24113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223343553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223343686, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223347069, "dur":63488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223410564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223410577, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223412803, "dur":27422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223440231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223440244, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223444127, "dur":18543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223462675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223462687, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223464366, "dur":96599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223560973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223560989, "dur":4841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223565902, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223566177, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223566239, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223572690, "dur":723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223573418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223573432, "dur":7596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223581095, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223581386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223581399, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223584182, "dur":20796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223604985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223604998, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223607582, "dur":2261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223609850, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223609871, "dur":10224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223620173, "dur":25543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223645721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223645733, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223647708, "dur":923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223648635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223648644, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223650830, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223651490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223651499, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223655929, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223656169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223656214, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223657766, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223658376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223658388, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223660510, "dur":82109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223742625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223742639, "dur":29885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681379223772600, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1681379223772675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223772688, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1681379223774814, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681379223774877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223774886, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1681379223777379, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1681379223777621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681379223777632, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1681379223779657, "dur":128759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223248409, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223248410, "dur":7036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223255450, "dur":3701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681379223259159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223263995, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681379223267736, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681379223267916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223269129, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681379223271896, "dur":11857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681379223283756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223283763, "dur":11688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681379223295539, "dur":63871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681379223359415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223359464, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681379223362800, "dur":57433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223420239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223420252, "dur":7495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223427818, "dur":41200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223469025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223469039, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223471027, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223471302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223474649, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223476484, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223476796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223476808, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223478667, "dur":1801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223480475, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223480501, "dur":7373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223487953, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223488277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223488290, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223491519, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223491805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223491816, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223497600, "dur":19374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223516981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223516994, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223519101, "dur":40622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223559732, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223559746, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223562810, "dur":44465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223607284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223607301, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223609173, "dur":27430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223636609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223636622, "dur":3490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223640190, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223640640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223640651, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223642673, "dur":26439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223669117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223669130, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223670984, "dur":123984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223794974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681379223794984, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681379223796853, "dur":111597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223248438, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223248438, "dur":7017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223255458, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681379223255597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223263502, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1681379223265541, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681379223265733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223265946, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1681379223268471, "dur":14989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681379223283466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223283480, "dur":11583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681379223295150, "dur":130891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1681379223426045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223426054, "dur":5633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1681379223431780, "dur":25421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223457209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223457223, "dur":4546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223461852, "dur":19292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223481149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223481161, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223483573, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223484125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223484168, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223486101, "dur":31044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223517149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223517159, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223519197, "dur":18431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223537635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223537648, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223542639, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223542930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223542942, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223544886, "dur":21916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223566808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223566820, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223569826, "dur":25130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223594964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223594979, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223597140, "dur":35529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223632677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223632692, "dur":5697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223638465, "dur":27584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223666059, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223666077, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223668397, "dur":118464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223786868, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681379223786887, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lelon/Desktop/game/unity-G/game1/long 1 week try_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681379223788718, "dur":119739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681379223914007, "dur":2610, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681379223954842, "dur": 1711, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681379223953914, "dur": 2720, "ph": "X", "name": "Write chrome-trace events", "args": {} },
